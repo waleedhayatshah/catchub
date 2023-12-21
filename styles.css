@@ -1,0 +1,272 @@
+ *{
+padding: 0;
+margin: 0;
+/* letter-spacing: 3px; */
+
+} 
+body{
+    background-image: url('background.png');
+} 
+.container ,
+.container1,
+.container2,
+.container3 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.left-section {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.right-section {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+         .body-text{
+            color: rgb(78, 78, 78);
+            font-family: "Times New Roman", Times, serif;
+            font-size: 2vw;
+            letter-spacing: 1px;
+            font-weight: 700;
+        }
+        .body2{
+            color: rgb(159, 159, 159);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size:2vw;
+        }
+        .body1{
+            color: rgb(78, 78, 78);
+            font-family: "Times New Roman", Times, serif;
+                font-size: 2.5vw;
+        } 
+.abc{
+    order: 2;
+}
+.efg{
+    order: 1;
+}
+.center-container,
+.center1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+}  
+.logo-appstore{
+    padding-right: 10px;
+}
+a{
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 576px)  {
+    body{
+        background-image: url('mb1.jpg');
+        width: 100%;
+        align-content: center;
+        justify-content: space-around;
+    }
+    .body-text{
+        color: rgb(78, 78, 78);
+        font-family: "Times New Roman", Times, serif;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 3px;
+        font-weight: 700;
+    }
+    .body2{
+        color: rgb(159, 159, 159);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+    }
+    .body1{
+        color: rgb(78, 78, 78);
+        font-family: "Times New Roman", Times, serif;
+            font-size: 15px;
+            font-weight: bold;
+    } 
+    .container ,
+    .container1,
+    .container2,
+    .container3 {
+        flex-direction: column; 
+    }
+    .brand-logo{
+        width: 20%;
+    }
+    .logo-appstore{
+        width: 17%;
+    }
+    .logo-playstore{
+        width: 17%;
+    }
+    .left-section, .right-section {
+        width: 90%; 
+        
+    }
+    .container{
+        margin-top: 20px;
+    }
+    .center-content{
+        font-size: 12px;
+        font-weight: 700;
+    }
+}
+
+/* /* reponsive sec2 */
+
+@media only screen and (min-width: 576px)and (max-width: 768px)  {
+        body{
+            background-image: url('mb2.jpg');
+
+        }
+        .body-text{
+            color: rgb(78, 78, 78);
+            font-family: "Times New Roman", Times, serif;
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            letter-spacing: 3px;
+            font-weight: 700;
+        }
+        .body2{
+            color: rgb(159, 159, 159);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+        }
+        .body1{
+            color: rgb(78, 78, 78);
+            font-family: "Times New Roman", Times, serif;
+                font-size: 17px;
+                font-weight: bold;
+        } 
+
+        .brand-logo{
+            width: 30%;
+        }
+        .logo-appstore{
+            width: 30%;
+        }
+        .logo-playstore{
+            width: 30%;
+        }
+        .left-section, .right-section {
+            width: 100%; 
+            
+        }
+        .container{
+            margin-top: 20px;
+        }
+        .center-content{
+            font-size: 12px;
+            font-weight: 700;
+        }
+    }
+/* reponsive sec3  */
+@media only screen and (min-width: 768px)and (max-width: 992px)  {
+    body{
+        background-image: url('mb3.jpg');
+
+    }
+    .body-text{
+        color: rgb(78, 78, 78);
+        font-family: "Times New Roman", Times, serif;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 3px;
+        font-weight: 700;
+    }
+    .body2{
+        color: rgb(159, 159, 159);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+    }
+    .body1{
+        color: rgb(78, 78, 78);
+        font-family: "Times New Roman", Times, serif;
+            font-size: 22px;
+            font-weight: bold;
+    } 
+
+    .brand-logo{
+        width: 33%;
+    }
+    .logo-appstore{
+        width: 33%;
+    }
+    .logo-playstore{
+        width: 33%;
+    }
+    .left-section, .right-section {
+        width: 95%; 
+        
+    }
+    .container{
+        margin-top: 20px;
+    }
+    .center-content{
+        font-size: 15px;
+        font-weight: 700;
+    }
+}
+ /* responsive 3  */
+@media only screen and (min-width: 768px)and (max-width: 1200px)  {
+    body{
+
+        /* width: 100%; */
+        align-content: center;
+        justify-content: space-around;
+    }
+    .body-text{
+        color: rgb(78, 78, 78);
+        font-family: "Times New Roman", Times, serif;
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 3px;
+        font-weight: 700;
+    }
+
+    .body2{
+        color: rgb(159, 159, 159);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 19px;
+    }
+    .body1{
+        color: rgb(78, 78, 78);
+        font-family: "Times New Roman", Times, serif;
+            font-size: 22px;
+            font-weight: bold;
+    } 
+
+    .brand-logo{
+        width: 45%;
+    }
+    .logo-appstore{
+        width: 43%;
+    }
+    .logo-playstore{
+        width: 43%;
+    }
+    .left-section, .right-section {
+        width: 95%; 
+        
+    }
+    .container{
+        margin-top: 15px;
+    }
+    .center-content{
+        font-size: 20px;
+        font-weight: 700;
+    }
+} 
